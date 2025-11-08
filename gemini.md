@@ -46,4 +46,4 @@ To prevent hallucination and conserve tokens, you MUST adhere to the following t
 
 ### `git push` Confirmation
 
-Before executing a `git push` command, you MUST ask for explicit confirmation from the user. For example: "I am ready to push these changes. Shall I proceed?"
+Before executing a `git push` command, you MUST ask for explicit confirmation. For example: "I am ready to push these changes. Shall I proceed?" Confirmation must be a clear and direct instruction to proceed. Do not interpret statements of fact, questions, or conditional statements as approval. If the user's response is not a direct and unconditional "yes" or equivalent, you must ask for clarification before proceeding.
